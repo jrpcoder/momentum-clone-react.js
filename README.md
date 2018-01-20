@@ -1,9 +1,16 @@
 ## Momentum Clone
 
-[Waffle Board](https://waffle.io/chingu-voyage-turtles-team-5/momentum-clone)  
+Clone of [Momentum Dash](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) built with React.js
 
-[![Stories in Ready](https://badge.waffle.io/chingu-voyage-turtles-team-5/momentum-clone.png?label=ready&title=Ready)](https://waffle.io/chingu-voyage-turtles-team-5/momentum-clone?utm_source=badge)
-[![Stories in Progress](https://badge.waffle.io/chingu-voyage-turtles-team-5/momentum-clone.png?label=In%20Progress&title=In%20Progress)](https://waffle.io/chingu-voyage-turtles-team-5/momentum-clone?utm_source=badge)
+Developed as [Chingu Cohort](https://chingu-cohorts.github.io/chingu-directory/) "Build to Learn" project 
+
+Web demo of extension is available at https://momentum-clone-react.surge.sh/
+
+Developed by: 
+[@marriger](https://github.com/marigerr)
+[@jrpcoder](https://github.com/jrpcoder)
+
+**Note: The web demo of extension is viewable only for desktops as project was built as a chrome extension which are desktop only**
 
 ## Setup
 
@@ -47,7 +54,19 @@
 
 If webpack.config file is changed, need restart watching or dev-server
 
-## Misc Notes
+## Screen Shots
+
+![Main](/src/assets/images/screenshot-home.png)
+![Main](/src/assets/images/screenshot-settings-general.png)
+![Main](/src/assets/images/screenshot-settings-background.png)
+![Main](/src/assets/images/screenshot-settings-quote.png)
+![Main](/src/assets/images/screenshot-todo.png)
+
+## Credits
+
+Photos from [Unsplash](https://unsplash.com/)
+Weather information from [OpenWeatherMap](https://openweathermap.org)
+Quotes retrived from [Random quote generator API](https://random-quote-generator.herokuapp.com/api/quotes/random) developed by [@mikethecodegeek](https://github.com/mikethecodegeek/) 
 
 [Turtle icon](https://www.flaticon.com/free-icon/sea-turtle_67985) downloaded from Flaticon  
 [Chrome icon](https://www.flaticon.com/free-icon/chrome_152759) downloaded from Flaticon  
