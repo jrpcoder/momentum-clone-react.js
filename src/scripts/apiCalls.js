@@ -10,7 +10,7 @@ function getUnsplashPhoto() {
 }
 
 function getWeather(userLat, userLon, tempScale) {
-  const api = 'https://hickory-office.glitch.me/api.weather?';
+  const api = 'https://sincere-structure.glitch.me/api.weather?';
   const lat = `lat=${userLat}`;
   const lon = `lon=${userLon}`;
   const units = `units=${tempScale === 'C' ? 'metric' : 'imperial'}`;
@@ -33,7 +33,7 @@ Need to add/fix fallback HTML5 geolocation if ipinfo fails
 //       localStorage.setItem('userLocationTimestamp', new Date().getTime());
 //       // remove old userCity and userCountry from localstorage
 //       // they will be retrieved using weather api
-//       localStorage.removeItem('userCity');  
+//       localStorage.removeItem('userCity');
 //       localStorage.removeItem('userCountry');
 //     })
 //   )
