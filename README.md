@@ -10,7 +10,7 @@ Developed by:
 [@marigerr](https://github.com/marigerr)  
 [@jrpcoder](https://github.com/jrpcoder)
 
-**Note: The web demo of extension is viewable only for desktops as project was built as a chrome extension which are desktop only**
+**Note: The web demo of extension is viewable only for desktops as project was built as a chrome extension, which is desktop only**
 
 ## Webpack info
 
@@ -49,7 +49,7 @@ If webpack.config file is changed, need restart watching or dev-server
 
 Photos from [Unsplash](https://unsplash.com/)  
 Weather information from [OpenWeatherMap](https://openweathermap.org)  
-Quotes retrived from [Random quote generator API](https://random-quote-generator.herokuapp.com/api/quotes/random) developed by [@mikethecodegeek](https://github.com/mikethecodegeek/) 
+Quotes retrived from [The Simpsons Quote API](https://thesimpsonsquoteapi.glitch.me/) developed by [@JLuboff](https://github.com/JLuboff) 
 
 [Turtle icon](https://www.flaticon.com/free-icon/sea-turtle_67985) downloaded from Flaticon  
 [Chrome icon](https://www.flaticon.com/free-icon/chrome_152759) downloaded from Flaticon  
