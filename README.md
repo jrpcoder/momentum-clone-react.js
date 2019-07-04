@@ -14,7 +14,7 @@ Developed by:
 
 ## Install Extension
 
-1. After cloning repo locally, run `npm install` and then `npm run build-production`
+1. After cloning repo locally, run `npm install` and then `npm run build`
 1. Open Chrome and navigate to `chrome://extensions`  
 1. Check `developer mode` checkbox at top of page   
 1. Click `Load unpacked extension` button 
