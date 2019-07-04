@@ -6,15 +6,15 @@ Developed as [Chingu Cohort](https://chingu-cohorts.github.io/chingu-directory/)
 
 Web demo of extension is available at https://momentum-clone-react.surge.sh/
 
-Developed by: 
-[@marriger](https://github.com/marigerr)
+Developed by:  
+[@marigerr](https://github.com/marigerr)  
 [@jrpcoder](https://github.com/jrpcoder)
 
-**Note: The web demo of extension is viewable only for desktops as project was built as a chrome extension which are desktop only**
+**Note: The web demo of extension is viewable only for desktops as project was built as a chrome extension, which is desktop only**
 
 ## Install Extension
 
-1. After cloning repo locally, run `npm install` and then `npm run build`
+1. After cloning repo locally, run `npm install` and then `npm run build-production`
 1. Open Chrome and navigate to `chrome://extensions`  
 1. Check `developer mode` checkbox at top of page   
 1. Click `Load unpacked extension` button 
@@ -32,9 +32,9 @@ Developed by:
 
 ## Credits
 
-Photos from [Unsplash](https://unsplash.com/)
-Weather information from [OpenWeatherMap](https://openweathermap.org)
-Quotes retrived from [Random quote generator API](https://random-quote-generator.herokuapp.com/api/quotes/random) developed by [@mikethecodegeek](https://github.com/mikethecodegeek/)   
+Photos from [Unsplash](https://unsplash.com/)  
+Weather information from [OpenWeatherMap](https://openweathermap.org)  
+Quotes retrived from [The Simpsons Quote API](https://thesimpsonsquoteapi.glitch.me/) developed by [@JLuboff](https://github.com/JLuboff)   
 
 Icon credits required if project published:  
 Example:
