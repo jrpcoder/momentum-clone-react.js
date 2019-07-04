@@ -51,7 +51,7 @@ class Quote extends Component {
   }
 
   componentDidMount() {
-    const URL = 'https://random-quote-generator.herokuapp.com/api/quotes/random';
+    const URL = 'https://thesimpsonsquoteapi.glitch.me/quotes';
     const overTime = this.checkFrequency();
     if (localStorageKeyExists('quote') && !overTime) {
       const currentQuote = getFromLocalStorage('quote');
@@ -63,12 +63,12 @@ class Quote extends Component {
       axios.get(URL)
         .then((response) => {
           const arrLikedQuotes = getFromLocalStorage('arrLikedQuotes');
-          const alreadyFavQuote = arrLikedQuotes.find(quote => response.data.quote === quote.quote);
+          const alreadyFavQuote = arrLikedQuotes.find(quote => response.data[0].quote === quote.quote);
           if (!alreadyFavQuote) {
             const quoteId = getCurrentTime();
             const currentQuote = {
-              quote: response.data.quote,
-              author: response.data.author,
+              quote: response.data[0].quote,
+              author: response.data[0].character,
               id: quoteId,
               liked: false,
             };

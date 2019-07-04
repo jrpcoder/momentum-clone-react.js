@@ -50,7 +50,7 @@ export default class QuotesSettings extends React.Component {
     return (
       <div>
         <h1>Quotes</h1>
-        <p className="catchphrase">Your favorite inspirational and motivational gems</p>
+        <p className="catchphrase">Have a laugh with your favorite The Simpsons gems. Share them!</p>
         <div className="quote-list-container2">
           {this.quotesList(this.props.arrLikedQuotes)}
         </div>
